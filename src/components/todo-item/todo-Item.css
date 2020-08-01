@@ -1,0 +1,72 @@
+
+.todoItem{
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.todoItem:hover{
+  background-color: lightblue;
+}
+
+.todo-starred{
+  position:relative;
+  font-weight: 700;
+}
+
+.todo-starred::after{
+  content: "";
+  position: absolute;
+  width:100%;
+  height:2px;
+  bottom:0;
+  left:0;
+  background-color: goldenrod;
+}
+
+.todo-completed{
+  background-color:#d8faff;
+  border-radius: 5px;
+  font-weight: 500;
+  position: relative;
+}
+
+.todo-completed::after{
+  content: "";
+  position: absolute;
+  width:100%;
+  height:2px;
+  bottom:7px;
+  left:0;
+  background-color: #0dabc4;
+}
+
+.custom-badge{
+  font-size: 16px;
+  margin:10px;
+  vertical-align: baseline;
+  background-color:#17a2b8 ;
+  color:white;
+}
+
+.starred-badge{
+  font-size: 16px;
+  margin:10px;
+  vertical-align: baseline;
+  background-color:goldenrod ;
+  color:white;
+}
+
+.button-custom{
+  text-align: right;
+  font-size: 500;
+  background-color: lightgray;
+  margin-top:7px;
+}
+.button-starred{
+  background-color: goldenrod;
+  margin-top:7px;
+}
+
+.button-marked{
+  background-color: green;
+  margin-top:7px;
+}
