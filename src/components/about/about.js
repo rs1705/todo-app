@@ -10,7 +10,7 @@ const about=()=>{
          <h2> The todo app</h2>
         <p>The app has been built with ♥ in React js.</p>
         <p>Creator: Rahul Saini</p>
-        <p>Github:<a href="Github.com/9-Para">Github.com/9-Para</a></p>
+        <p>Github: Github.com/9-para</p>
          </Jumbotron>
        </Col>
      </Row>

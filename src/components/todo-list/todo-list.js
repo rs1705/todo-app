@@ -36,7 +36,7 @@ const TodoList = ({ todos, completeTodo, starTodo, addTodo, removeTodo }) => {
 
   let todolist = todos["todos"];
   console.log(todolist.length);
-  if (todolist.length===0) {
+  if (todolist.length === 0) {
     list = (
       <p style={{ color: "red", textAlign: "center" }}>
         Currently there are no items in the list.
